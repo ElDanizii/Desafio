@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(#f2f928,#138AEB);
+    
+}
 
 div li:hover{
     text-transform: uppercase;
