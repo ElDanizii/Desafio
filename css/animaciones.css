@@ -1,0 +1,9 @@
+
+div li:hover{
+    text-transform: uppercase;
+}
+
+footer img:hover{
+    filter: saturate(180%);
+     -webkit-transform:scale(1.3);transform:scale(1.3);
+}

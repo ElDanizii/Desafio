@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercial Copihue - Quesos, Lacteos y Frutos Secos</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bgLight">
+    <div class="bgLight textCenter textMayus paraFijologo">
+        <p>comercial<img src="../img/logo.png" alt="">copihue</p>
+    </div>
+    <nav class="menu"> 
+        <ul>
+           <li>
+               <a href="../index.html"><img src="../img/flower_8.svg" alt="logo con el que vuelves al inicio">
+               </a>   
+           </li>
+           <li>
+               <a href="./views/productos.html">Productos</a>
+           </li>
+           <li>
+               <a href="./views/promociones.html">Promociones</a>
+           </li>
+           <li>
+               <a href="./views/nosotros.html">Nosotros</a>
+           </li>
+           <li>
+               <a href="./views/contacto.html">Contacto</a>
+           </li>
+       </ul> 
+   </nav>
+    <header></header>
+    <main>
+        <section>
+            <form action="envio.php" class="bordeFormular">
+                <article>
+                    <p class="textGrande">Información de contacto</p>
+                <label for="nombre" class="textMedian">Nombre:</label>
+                <input type="text" id="nombre" placeholder="John Doe">
+                
+                <p><label for="email" class="textMedian">Email:</label>
+                <input type="email" id="email" placeholder="mail@mail.com"></p>
+                
+                <p><label for="telefono" class="textMedian">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="+56 9 xxxx xxxx"></p>
+
+                <p><label for="comuna" class="textMedian">Comuna:</label>
+                <select name="" id="comuna">
+                    <option value="Santiago">Santiago</option>
+                    <option value="Maipu">Maipú</option>
+                    <option value="Buin">Buin</option>
+                </select></p>
+
+                </article>
+                  <label for="check" class="textMedian">¿Desea ser contactado por teléfono?:</label>  
+                  <input type="checkbox" id="check">
+                 
+               <p><label for="mensaje">Dejenos su comentario:</label></p>
+                
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                
+                <p><input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="textCenter">
+        <h3 class="bgFoot">NUESTRAS REDES SOCIALES
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../img/facebook.png" alt="">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="../img/twitter.png" alt="">
+            </a>
+        </h3>
+    </footer>
+</body>
+</html>
